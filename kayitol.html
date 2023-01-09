@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>KAYIT OL</title>
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="kayitol.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="title">TURKFLIX
+        </div>
+        
+
+        <div class="form" style="background-image: url(./img/beyazarkaplan.png);">
+            <div class="input_field">
+                <input type="text" id="isim" placeholder="İsim" class="input">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="input_field">
+                <input type="text" id="telefonnumarasi" placeholder="Telefon Numarası" class="input">
+                <i class="fa fa-phone"></i>
+            </div>
+            <div class="input_field">
+                <input type="text" id="eposta" placeholder="E-Posta" class="input">
+                <i class="far fa-envelope"></i>
+            </div>
+            <div class="input_field">
+                <input type="Password" id="kullanicisifre" placeholder="Şifre" class="input">
+                <i class="fas fa-lock"></i>
+                </div>
+                <div class="btn">
+                    <a href="#" onclick="kontrol()">Kayıt Ol </a>
+                </div>
+                <p class="result" style="background:white; color: red;" id="result"></p>
+                   
+            </div>
+        </div>
+    </div>
+    <script src="./kayitol.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

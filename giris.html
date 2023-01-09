@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>GİRİŞ</title>
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="kayitol.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="title">TURKFLIX
+        </div>
+        <div class="social_media">
+            <div class="item">
+                <i class="fab fa-facebook-f"onclick="facebook()"></i>
+            </div>
+            <div class="item">
+                <i class="fab fa-instagram"onclick="instagram()"></i>
+            </div>
+            <div class="item">
+                <i class="fab fa-twitter"onclick="twitter()"></i>
+            </div>
+            
+        </div>
+        <div class="form" style="background-image: url(./img/beyazarkaplan.png);">
+            <div class="input_field">
+                <input type="text" id="user" placeholder="E-Posta" class="input">
+                <i class="far fa-envelope"></i>
+            </div>
+            <div class="input_field">
+                <input type="Password" id="password" placeholder="Şifre" class="input">
+                <i class="fas fa-lock"></i>
+                </div>
+                <div class="btn">
+                    <a href="#" onclick="kontrol1()">Giriş Yap</a>
+                </div>
+                <div class="btn">
+                    <a href="#" onclick="kayit()">Henüz üye olmadıysan çabuk tıkla!</a>
+                </div>
+                <p class="result" style="background:white; color: red;" id="result2"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./giris.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

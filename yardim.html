@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="Diziler.html">
+    <title>TURKFLIX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="navbar">
+        <div class="navbar-wrapper">
+            <div class="logo-wrapper">
+                <h1 class="logo"><a class="logo" href="index.html">TURKFLIX</a></h1>
+            </div>
+            <div class="menu-container">
+
+                <ul class="menu-list">
+                    <li class="menu-list-item"><a class="menu-item" href="index.html">Ana Sayfa</a></li>
+                    <li class="menu-list-item"><a class="menu-item" href="Diziler.html">Diziler</a></li>
+                    <li class="menu-list-item"><a class="menu-item" href="Filmler.html">Filmler</a></li>
+                    <li class="menu-list-item"><a class="menu-item" href="Listem.html">Listem</a></li>
+                    <li class="menu-list-item"><a class="menu-item" href="Popüler.html">Popüler</a></li>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <div class="toggle-not">
+                    <i class="bi bi-bell-fill"></i>
+                </div>
+                <img class="profile-picture" src="img/profil.png" alt="">
+                <div class="profile-text-container"><span class="profile-text">Hesabım</span>
+                    <select id="secenekler" class="bi bi-caret-down-fill" onchange="location=this.value;">
+                        <option value="" selected>...</option>
+                        <option value="hesap.html">Hesap</option>
+                        <option value="yardim.html">Yardım</option>
+                        <option value="baslangic.html">Çıkış</option>
+
+
+
+                    </select>
+
+
+                </div>
+                <div class="toggle">
+                    <i class="bi bi-moon-fill toggle-icon"></i>
+                    <i class="bi bi-brightness-high-fill toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="global-content">
+
+        <div class="container">
+        </div>
+        <div class="container">
+            <section class="top-articles">
+                <div class="categories">
+                    <div class="category1">
+                        <div class="category-wrapper">
+                            <h2 class="category-title"> Hesap Yönetimi</h2>
+                            <o1 class="articles">
+                                <li class="top-article">
+                                    Planlar ve Ücretler
+                                </li>
+                                <li class="top-article">
+                                    Hesabımda yeni bir oturum açıldığını belirten bir e-posta aldım.
+                                </li>
+                                <li class="top-article">
+                                    Planınızı Değiştirme
+                                </li>
+                            </o1>
+                        </div>
+                    </div>
+                    <div class="category2">
+                        <div class="category-wrapper">
+                            <h2 class="category-tittle">İzleyemiyorum</h2>
+                            <o1 class="articles">
+                                <li class="top-article">
+                                    Donma problemi yaşıyorum
+                                </li>
+                                <li class="top-article">
+                                    Altyazıları aktifleştiremiyorum
+                                </li>
+                                <li class="top-article">
+                                    Görüntü kalitesini nasıl arttırabilirim
+                                </li>
+                                <li class="top-article">
+                                    Uygulama cihazım ile uyumlu değil
+                                </li>
+                            </o1>
+                        </div>
+                    </div>
+                    <div class="category3">
+                        <div class="category-wrapper">
+                            <h2 class="category-title">Faturalandırma Soruları</h2>
+                            <o1 class="articles">
+                                <li class="top-article">
+                                    Turkflix ücreti nasıl ödenir?
+                                </li>
+                                <li class="top-article">
+                                    Faturalandırma ve ödemeler
+                                </li>
+                                <li class="top-article">
+                                    Ödeme yöntemini nasıl değiştirebilirim?
+                                </li>
+                                <li class="top-article">
+                                    Kayıtlı kart bilgilerimi nasıl silebilirim?
+                                </li>
+                            </o1>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+    </div>
+    <div class="navbar-wrapper1">
+        <div class="logo-wrapper1">
+            <h1 class="logo">
+                <marquee><b>TURKFLIX </b> </marquee>
+            </h1>
+        </div>
+
+        <script src="./script.js"></script>
+</body>
+</html>

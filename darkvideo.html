@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="darkvideo.css">
+    <title>TURKFLIX</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-wrapper">
+            <div class="logo-wrapper">
+                <h1 class="logo"><a class="logo" href="index.html">TURKFLIX</a></h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active"><a class="menu-item" href="index.html">Ana Sayfa</a></li>
+                    <li class="menu-list-item"><a class="menu-item" href="Diziler.html">Diziler</a></li>
+                    <li class="menu-list-item"><a class="menu-item" href="Filmler.html">Filmler</a></li>
+                    <li class="menu-list-item"><a class="menu-item" href="Listem.html">Listem</a></li>
+                    <li class="menu-list-item"><a class="menu-item" href="Popüler.html">Popüler</a></li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <div class="toggle-not">
+                    <i class="bi bi-bell-fill"></i>
+                </div>
+                <img class="profile-picture" src="img/profil.png" alt="">
+                <div class="profile-text-container"><span class="profile-text">Hesabım</span>
+                    <select id="secenekler" class="bi bi-caret-down-fill" onchange="location=this.value;">
+                        <option value="" selected>...</option>
+                        <option value="hesap.html">Hesap</option>
+                        <option value="yardim.html">Yardım</option>
+                        <option value="baslangic.html">Çıkış</option>
+
+
+
+                    </select>
+
+
+                </div>
+                <div class="toggle">
+                    <i class="bi bi-moon-fill toggle-icon"></i>
+                    <i class="bi bi-brightness-high-fill toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="featured-content">
+            <video width="100%" height="532" controls style="transform: translate(10px, -50px);">
+                <source src="./img/Dark __ En İyi Sahneler (Türkçe Alt Yazılı).mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="comments-wrapper"style="background: black;">
+        <div class="comment-title">
+            <h2>
+                <span class="title-border"><i class="bi-chat-left-dots"></i></span> Yorumlar <small
+                    class="text-muted">(8)</small>
+            </h2>
+        </div>
+        <div id="respond" class="comment-respond" style="color: white;">
+
+            <p>Yorum yazabilmek için <a class="yorum" style="text-decoration: none; color: red;" href="giris.html">Giriş</a> yapmalısınız.</p>
+        </div>
+        <div id="comment-list-wrapper" style="color: white;">
+            <ol class="comment-list list-unstyled">
+                <div id="popular-comments" class="m-b-1">
+                    <div class="comment-title">
+                        <h4>
+                            <span class="title-border">
+                                <i class="bi-star-fill"></i>
+                            </span>
+                            Popüler Yorumlar
+                        </h4>
+                    </div>
+                    <p><b>Berker Erhan</b> 2Gün Önce</p><br>
+                    <p>Çok sürükleyici bir diziydi.Turkflix'e teşekkürler.</p> <hr>
+                    <p><b>Berker Erhan</b> 3Gün Önce</p> <br>
+                    <p>Hiç donmadan izledim.Kalite muhteşem...</p> <hr>
+                    <p><b>Berker Erhan</b> 4Gün Önce</p> <br>
+                    <p><b>Çok sürükleyici bir diziydi.Turkflix'e teşekkürler.</b></p> <hr>
+                    <p><b>Berker Erhan</b> 5Gün Önce</p> <br>
+                    <p>Çok sürükleyici bir diziydi.Turkflix'e teşekkürler.</p> <hr>
+                    <p><b>Berker Erhan</b> 1 Hafta Önce</p> <br>
+                    <p>Çok sürükleyici bir diziydi.Turkflix'e teşekkürler.</p> <hr>
+                    <p><b>Berker Erhan</b> 2 Hafta Önce</p> <br>
+                    <p>Çok sürükleyici bir diziydi.Turkflix'e teşekkürler.</p> <hr>
+                    
+                    
+
+
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+.toggle-not{
+    color:red;
+    cursor: pointer;
+}
+.categories{
+    background-color: white;
+    color:black;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    line-height: 2.0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.category1{
+    text-align: center;
+}
+.category2{
+    text-align: center;
+}
+.navbar-wrapper{
+   
+    height: 60px;
+    
+}
+.logo-wrapper1{
+    background-color: black;
+    height: 60px;
+    color:red;
+    text-align:center;
+    
+}
+.account-container{
+    position: fixed;
+    background-color: lightgray;
+    height: 100%;
+    width: 100%;
+}
+.account-info{
+    position: absolute;
+    display: flex;
+    margin: 100px;
+    width: 75%;
+    height: 350px;
+    padding: 70px;
+}
+.account-detail-box{
+    position: absolute;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: large;
+}
+.account-details{
+    display: flex;
+    padding: 10px;
+    word-spacing: 40px;
+}
+
+.account-picture{
+    position: absolute;
+    bottom: -20px;
+    left: 420px;
+}
+#picture{
+    border-radius: 50%;
+}
+.remove-membership{
+    position: absolute;
+    margin-left: 750px;
+    bottom: 150px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.result 
+{color:red;
+}
+
